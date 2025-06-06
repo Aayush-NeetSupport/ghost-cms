@@ -18,7 +18,7 @@
       "secure": true,
       "auth": {
         "user": "aayush@neetsupport.com",
-        "pass": "daxjffnnawcqeobe"
+        "pass": "${SMTP_PASS}"
       }
     }
   },
