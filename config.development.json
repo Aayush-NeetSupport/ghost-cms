@@ -1,0 +1,35 @@
+{
+  "url": "http://localhost:2368/",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "/home/oem/my-ghost-blog/content/data/ghost-local.db"
+    }
+  },
+  "mail": {
+    "transport": "SMTP",
+    "options": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "aayush@neetsupport.com",
+        "pass": "daxjffnnawcqeobe"
+      }
+    }
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/home/oem/my-ghost-blog/content"
+  }
+}
